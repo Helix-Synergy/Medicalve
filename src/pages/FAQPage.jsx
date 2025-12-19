@@ -2,16 +2,16 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What is Mediclave 2025?",
+    question: "What is Mediclave 2026?",
     answer:
-      "Mediclave 2025, officially known as the “Global Medical Conclave” (MEDICLAVE-2025), is a premier international medical conference organized by Helix Conferences. The event aims to bring together Healthcare Professionals, Researchers, and Industry leaders to discuss and explore advancements in the Health Care Sector.",
+      "Mediclave 2026, officially known as the “ Advanced Medical Practices Conclave” (MEDICLAVE-2026), is a premier international medical conference organized by Helix Conferences. The event aims to bring together Healthcare Professionals, Researchers, and Industry leaders to discuss and explore advancements in the Health Care Sector.",
   },
   {
-    question: "When and where will the Mediclave 2025 take place?",
-    answer: "The conference will be held in Valencia, Spain from November 25–27, 2025.",
+    question: "When and where will the Mediclave 2026 take place?",
+    answer: "The conference will be held in Vienna, Austria from May 21–22, 2026.",
   },
   {
-    question: "What are the highlights of Mediclave 2025?",
+    question: "What are the highlights of Mediclave 2026?",
     answer: [
       "Networking opportunities with Industry leaders and Healthcare Professionals.",
       "Interactive Workshops and Sessions.",
@@ -67,7 +67,7 @@ const faqData = [
       "Presentation slots typically range from 15 to 25 minutes. Specific times will be assigned upon abstract acceptance.",
   },
   {
-    question: "Who will be attending Mediclave 2025?",
+    question: "Who will be attending Mediclave 2026?",
     answer:
       "The event is expected to attract a diverse group of professionals from the global medical and healthcare community.",
   },

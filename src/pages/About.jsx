@@ -23,7 +23,7 @@ const data = {
     location: "Vienna, Austria",
     organizer: "Helix Conferences",
     description: [
-      "Join us at the prestigious Global Medical Conclave – Mediclave 2026, where healthcare professionals, researchers, scientists, and policymakers unite to discuss groundbreaking developments, tackle pressing challenges, and shape the future of medical science. Mediclave is more than just a conference – it’s a dynamic platform for innovation, research, and collaboration in healthcare, medical technology, and patient care. With a focus on artificial intelligence, personalized medicine, and global health challenges, this conclave aims to foster partnerships and deliver impactful solutions.",
+      "Join us at the prestigious  Advanced Medical Practices Conclave – Mediclave 2026, where healthcare professionals, researchers, scientists, and policymakers unite to discuss groundbreaking developments, tackle pressing challenges, and shape the future of medical science. Mediclave is more than just a conference – it’s a dynamic platform for innovation, research, and collaboration in healthcare, medical technology, and patient care. With a focus on artificial intelligence, personalized medicine, and global health challenges, this conclave aims to foster partnerships and deliver impactful solutions.",
     ],
   },
   themes: [

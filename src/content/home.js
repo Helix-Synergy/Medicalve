@@ -3,7 +3,7 @@ export const home_section = {
     month: 'May',
     date: '21-22',
     venue:'Vienna | Austria',
-    title: 'GLOBAL MEDICAL CONCLAVE',
+    title: ' Advanced Medical Practices Conclave',
     subTitle: 'MEDICLAVE - 2026'
 }
 

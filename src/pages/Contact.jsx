@@ -132,7 +132,7 @@ const ContactForm = () => {
     "World Summit on Environmental Chemistry",
     "International Conferences on Biochemistry",
     "International Chemistry Conclave",
-    "18th Global Medical Conclave",
+    "18th  Advanced Medical Practices Conclave",
     "International Health Sciences Conclave",
     "World Environmental Medicine Summit",
     "22nd World Agriculture & Food Sciences Conclave",
