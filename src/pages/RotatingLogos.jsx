@@ -24,7 +24,7 @@ import rheumatology from '../assets/tracks/rheumatology.jpg'
 import telemedicine from '../assets/tracks/telemedicine_health.jpg'
 import vaccine from '../assets/tracks/vaccines.jpg'
 import womens_health from '../assets/tracks/womens_health.jpg'
-
+import {Link} from "react-router-dom"
 const VISIBLE_ICONS = 5;
 const CONTAINER_HEIGHT = 500;
 const ICON_HEIGHT = CONTAINER_HEIGHT / VISIBLE_ICONS;
@@ -37,49 +37,70 @@ const tracks = [
     title: "Gynecology",
     subtitle: "Advancements in Women's Reproductive Health",
     description:
-      "Explore breakthroughs in Women's Health, Reproductive Medicine, and Minimally Invasive Surgery. Gain insights into Fertility Solutions, Gynecologic Oncology, Hormonal Therapies, and Robotic Techniques that enhance patient outcomes and advance Precision Medicine and Innovative Diagnostics in female healthcare, addressing policy challenges and aging-related reproductive health."
+    <>
+  Explore breakthroughs in Women's Health, Reproductive Medicine, and Minimally Invasive Surgery. Gain insights into Fertility Solutions,  <Link to="/event_partners"    className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Gynecologic Oncology,</Link> Hormonal Therapies, and Robotic Techniques that enhance patient outcomes and advance Precision Medicine and Innovative Diagnostics in female healthcare, addressing policy challenges and aging-related reproductive health."
+      </>
   },
   {
     image: pediatrics,
     title: "Pediatrics",
     subtitle: "Innovative Solutions in Child Health",
     description:
+    <>
       "Focus on Child Development, Pediatric Oncology, Neonatal Care, and Immunization Strategies. Discover innovations in Chronic Disease Management, Pediatric Surgery, and Preventive Pediatrics. Learn about emerging Therapeutic Models and cutting-edge Pediatric Medicine aimed at improving outcomes for children from prenatal stages through adolescence."
+      </>
   },
   {
     image: emergency_medicine,
     title: "Emergency Medicine",
     subtitle: "Delivering Critical Care in Acute Situations",
     description:
-      "Address innovations in Trauma Care, Emergency Diagnostics, and Acute Intervention Protocols. Explore advancements in Triage Systems, AI-Driven Tools, Life-Saving Treatments, and Emergency Procedures. Learn how Technology enhances Acute Care delivery, improving survival rates and patient safety in high-pressure clinical environments."
+    <>
+      "Address innovations in Trauma Care, <Link to="https://helixconferences.com/buy-a-ticket" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Emergency Diagnostics,</Link> and Acute Intervention Protocols. Explore advancements in Triage Systems, AI-Driven Tools, Life-Saving Treatments, and Emergency Procedures. Learn how Technology enhances Acute Care delivery, improving survival rates and patient safety in high-pressure clinical environments."
+      </>
   },
   {
     image: genetic_disorder,
     title: "Genetic Disorders",
     subtitle: "Revolutionizing the Future of Genetic Medicine",
     description:
-      "Explore Genetic Testing, Gene Therapies, and CRISPR Technologies revolutionizing medicine. Focus on Rare Disease Diagnosis, Genomic Precision Medicine, and Ethical Issues in Genetic Modification. Learn how Innovative Diagnostics and Personalized Treatments transform outcomes in hereditary and complex Genetic Disorders."
+    <>
+      "Explore Genetic Testing, Gene Therapies, and CRISPR <Link to="/international-mediclave-summit-orators"    className="hover:text-accent hover:decoration-one
+             transition-colors duration-300"> Technologies </Link> revolutionizing medicine. Focus on Rare Disease Diagnosis, Genomic Precision Medicine, and Ethical Issues in Genetic Modification. Learn how Innovative Diagnostics and Personalized Treatments transform outcomes in hereditary and complex Genetic Disorders."
+      </>
   },
   {
     image: mental_health,
     title: "Mental Health",
     subtitle: "Innovative Approaches to Behavioral Healthcare",
     description:
-      "Discover emerging Therapeutic Models for psychiatric disorders such as Depression, Anxiety, and Schizophrenia. Learn about Digital Mental Health Solutions, Behavioral Therapies, and strategies to reduce Mental Health Stigma. Explore Innovative Diagnostics and treatments that improve patient outcomes and promote psychological well-being."
+    <>
+      "Discover emerging Therapeutic Models for psychiatric disorders such as Depression, Anxiety, and Schizophrenia. Learn about <Link to="/world-mediclave-event-schedule"    className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Digital Mental Health</Link> Solutions, Behavioral Therapies, and strategies to reduce Mental Health Stigma. Explore Innovative Diagnostics and treatments that improve patient outcomes and promote psychological well-being."
+      </>
   },
   {
     image: telemedicine,
     title: "Telemedicine & Digital Health",
     subtitle: "The Future of Healthcare Delivery",
     description:
-      "Explore Telehealth Platforms, Wearable Health Technology, AI-Driven Diagnostics, and Mobile Health Apps. Understand Regulatory Frameworks, Reimbursement Strategies, and innovations in Digital Health that enhance Patient Access and transform Healthcare Delivery in an increasingly connected and technology-driven world."
+    <>
+      "Explore Telehealth Platforms,<Link to="/"    className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Wearable Health Technology,</Link> AI-Driven Diagnostics, and Mobile Health Apps. Understand Regulatory Frameworks, Reimbursement Strategies, and innovations in Digital Health that enhance Patient Access and transform Healthcare Delivery in an increasingly connected and technology-driven world."
+      </>
   },
   {
   image: public_health,
   title: "Cosmetic Surgery",
   subtitle: "Advancing Aesthetics with Modern Medical Innovation",
   description:
-    "Explore the field of Cosmetic Surgery, where science and artistry converge to enhance appearance and boost confidence. Learn about Minimally Invasive Procedures, Reconstructive Techniques, and Innovations in Aesthetic Medicine. Understand patient-centered approaches, safety standards, and the role of technology in shaping the future of personalized cosmetic treatments.",
+
+  <>
+    "Explore the field of <Link to="/venue"    className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Cosmetic Surgery, </Link> where science and artistry converge to enhance appearance and boost confidence. Learn about Minimally Invasive Procedures, Reconstructive Techniques, and Innovations in Aesthetic Medicine. Understand patient-centered approaches, safety standards, and the role of technology in shaping the future of personalized cosmetic treatments.",
+    </>
   },
 
   {
@@ -87,35 +108,50 @@ const tracks = [
     title: "Infectious Diseases",
     subtitle: "Tackling Emerging Pathogens and Global Pandemics",
     description:
-      "Stay updated on Infectious Disease Prevention, Novel Vaccines, Antiviral Therapies, and Diagnostic Innovations. Explore Surveillance Strategies and Global Responses to Pandemics such as COVID-19 and Ebola, with emphasis on Public Health Preparedness and cutting-edge research in Emerging Pathogens."
+    <>
+      "Stay updated on <Link to="/international-mediclave-summit-orators"  className="hover:text-one hover:decoration-accent
+             transition-colors duration-300" >Infectious Disease</Link>  Prevention, Novel Vaccines, Antiviral Therapies, and Diagnostic Innovations. Explore Surveillance Strategies and Global Responses to Pandemics such as COVID-19 and Ebola, with emphasis on Public Health Preparedness and cutting-edge research in Emerging Pathogens."
+      </>
   },
   {
     image: nutrition_metabolism,
     title: "Nutrition and Metabolism",
     subtitle: "Exploring the Link Between Diet, Health, and Disease",
     description:
-      "Examine the role of Nutrition in Metabolism, Gut Microbiota, and Chronic Disease Management. Discover Personalized Nutrition, Emerging Metabolic Treatments, and Nutritional Therapies that impact health outcomes and disease prevention through innovative, evidence-based dietary strategies."
+    <>
+      "Examine the role of <Link to="/world-mediclave-event-schedule" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300" >Nutrition in Metabolism,</Link> Gut Microbiota, and Chronic Disease Management. Discover Personalized Nutrition, Emerging Metabolic Treatments, and Nutritional Therapies that impact health outcomes and disease prevention through innovative, evidence-based dietary strategies."
+      </>
   },
   {
     image: rheumatology,
     title: "Rheumatology",
     subtitle: "Advances in the Treatment of Autoimmune and Inflammatory Diseases",
     description:
-      "Learn about Biologics, Gene Therapies, and Diagnostic Innovations in Autoimmune and Inflammatory Disease Management. Focus on Chronic Pain Control, Quality of Life Improvement, and cutting-edge Rheumatology treatments that address complex patient needs with advanced Therapeutic Solutions."
+    <>
+      "Learn about Biologics, Gene Therapies, and Diagnostic Innovations in Autoimmune and Inflammatory Disease Management. Focus on Chronic Pain Control, Quality of Life Improvement, and cutting-edge <Link to="https://helixconferences.com/buy-a-ticket" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Rheumatology treatments</Link> that address complex patient needs with advanced Therapeutic Solutions."
+      </>
   },
   {
     image: womens_health,
     title: "Women's Health & Midwifery",
     subtitle: "Comprehensive Approaches to Women's Well-being",
     description:
-      "Discuss advances in Maternal Health, Obstetric Care, Midwifery, and Postnatal Support. Explore Sexual Health, Osteoporosis Treatments, Hormonal Therapies, and Integrative Approaches that improve Women's Health Outcomes using Precision Medicine and Patient-Centered Care frameworks."
+    <>
+      "Discuss advances in <Link to="/about-global-medical-conclave" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Maternal Health,</Link>  Obstetric Care, Midwifery, and Postnatal Support. Explore Sexual Health, Osteoporosis Treatments, Hormonal Therapies, and Integrative Approaches that improve Women's Health Outcomes using Precision Medicine and Patient-Centered Care frameworks."
+      </>
   },
   {
     image: oncology,
     title: "Cancer",
     subtitle: "Innovative Therapies and Early Detection in Oncology",
     description:
-      "Explore Immunotherapy, Precision Medicine, and Targeted Cancer Treatments. Learn about Early Detection Technologies, Personalized Oncology, and breakthrough Research enhancing patient survival. Discuss innovations in Cancer Care, including Biomarkers and Novel Therapeutics shaping the future of Oncology."
+    <>
+      "Explore Immunotherapy, Precision Medicine, and Targeted <Link to="/venue" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300">Cancer Treatments.</Link> Learn about Early Detection Technologies, Personalized Oncology, and breakthrough Research enhancing patient survival. Discuss innovations in Cancer Care, including Biomarkers and Novel Therapeutics shaping the future of Oncology."
+      </>
   },
   {
     image: addiction_medicine,
@@ -129,7 +165,10 @@ const tracks = [
     title: "Remote Healthcare",
     subtitle: "Improving Access to Care in Rural and Underserved Communities",
     description:
-      "Highlight Teleconsultations, Remote Diagnostics, and Mobile Health Units improving care access. Discuss Technology-driven Healthcare Delivery, Digital Health Equity, and strategies addressing Rural and Underserved Population needs through innovative Telemedicine Solutions and Health Informatics."
+    <>
+      "Highlight Teleconsultations, Remote Diagnostics, and <Link to="/event_partners" className="hover:text-one hover:decoration-accent
+             transition-colors duration-300"> Mobile Health</Link> Units improving care access. Discuss Technology-driven Healthcare Delivery, Digital Health Equity, and strategies addressing Rural and Underserved Population needs through innovative Telemedicine Solutions and Health Informatics."
+      </>
   },
   {
     image: pain_management,
@@ -143,7 +182,9 @@ const tracks = [
     title: "Vaccines",
     subtitle: "The Role of Immunization in Public Health",
     description:
-      "Explore new Vaccine Technologies including mRNA and Universal Vaccines. Discuss Vaccine Accessibility, Hesitancy Reduction, and Immunization Strategies that bolster Public Health Preparedness and pandemic prevention using innovative research and Global Health Initiatives."
+    <>
+      "Explore new <Link to="/about-global-medical-conclave"> Vaccine Technologies</Link>  including mRNA and Universal Vaccines. Discuss Vaccine Accessibility, Hesitancy Reduction, and Immunization Strategies that bolster Public Health Preparedness and pandemic prevention using innovative research and Global Health Initiatives."
+      </>
   },
   {
     image: emergency_medicine,

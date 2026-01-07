@@ -126,53 +126,41 @@ export const sticky_links = [
 
 export const socialLinks = [
   {
-    id: 1,
+    id: "facebook",
     name: "Facebook",
-    url: "https://www.facebook.com/people/Helix-Conference-LLC/61570321457803/",
+    url: "https://www.facebook.com/profile.php?id=61576697796195",
     icon: <Facebook size={18} />,
   },
   {
-    id: 2,
+    id: "twitter",
     name: "Twitter (X)",
-    url: "https://x.com/i/flow/login?redirect_after_login=%2FHelixconfe69272",
+    url: "https://x.com/Helixconfe69272",
     icon: <Twitter size={18} />,
   },
   {
-    id: 3,
+    id: "instagram",
     name: "Instagram",
-    url: "https://www.instagram.com/helixscientificconferences/",
+    url: "https://www.instagram.com/helix_conferences/",
     icon: <Instagram size={18} />,
   },
   {
-    id: 4,
+    id: "youtube",
     name: "YouTube",
     url: "https://www.youtube.com/@Helixconferences",
     icon: <Youtube size={18} />,
   },
-  // {
-  //   id: 5,
-  //   name: "WhatsApp",
-  //   url: "https://wa.me", // WhatsApp direct link
-  //   icon: <MessageCircle size={18} />,
-  // },
   {
-    id: 6,
+    id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/company/helix-conferences-llc/",
+    url: "https://www.linkedin.com/company/helixconferences",
     icon: <Linkedin size={18} />,
   },
   {
-    id: 7,
+    id: "reddit",
     name: "Reddit",
-    url: "https://www.reddit.com/user/Sufficient-Cover-471/?rdt=65190",
-    icon: <FaReddit size={18} />, // closest match
+    url: "https://www.reddit.com/user/Salty-Ad6381/",
+    icon: <FaReddit size={18} />,
   },
-  // {
-  //   id: 8,
-  //   name: "Pinterest",
-  //   url: "https://pinterest.com",
-  //   icon: <Pinterest size={24} />,
-  // },
 ];
 
 export const WhatsAppIcon = ({ className }) => (
