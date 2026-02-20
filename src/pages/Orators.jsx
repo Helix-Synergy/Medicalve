@@ -26,7 +26,10 @@ const Orators = () => {
       </div>
 
       {/* Orator Cards Grid */}
-      <div className="grid grid-cols-1 px-2 sm:px-8 md:px-12 lg:px-24 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-4 mb-12 w-full">
+      <div style={{marginLeft:"220px"}}>
+
+    
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-4 mb-12 w-full max-w-[1200px]">
         {orators?.length > 0 ? (
           orators.map((item, idx) => (
             <Link
@@ -39,6 +42,8 @@ const Orators = () => {
                 about={item.about}
                 from={item.from}
                 image={item.image}
+               
+                 
               />
             </Link>
           ))
@@ -48,6 +53,7 @@ const Orators = () => {
           </p>
         )}
       </div>
+        </div>
     </section>
   );
 };

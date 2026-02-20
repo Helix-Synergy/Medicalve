@@ -1,7 +1,7 @@
-import React from 'react';
-import { panel_members } from '../assets';
-import PanelMemberCard from './ui/PanelMemberCard';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { panel_members } from "../assets";
+import PanelMemberCard from "./ui/PanelMemberCard";
+import { Link } from "react-router-dom";
 
 const PanelMembers = () => {
   return (
@@ -10,7 +10,9 @@ const PanelMembers = () => {
         Meet Our Esteemed Executive Panel
       </h1>
       <p className="w-full sm:w-11/12 md:w-2/3 my-2 text-center text-sm md:text-base text-slate-600">
-        Our executive panel comprises visionary leaders and industry pioneers who bring deep expertise and strategic insight to guide our mission in advancing global health innovation.
+        Our executive panel comprises visionary leaders and industry pioneers
+        who bring deep expertise and strategic insight to guide our mission in
+        advancing global health innovation.
       </p>
 
       <div className="flex flex-wrap justify-center gap-6 mt-6 w-full max-w-7xl mx-auto">
@@ -21,6 +23,7 @@ const PanelMembers = () => {
             about={item.about}
             from={item.from}
             image={item.image}
+
           />
         ))}
       </div>

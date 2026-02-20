@@ -30,7 +30,7 @@ const PanelMemberTemplate = (item) => {
         <p className="text-one text-lg">{item.from}</p>
       </div>
       <div className="w-3/2 my-8 mx-10 mb-24">
-        <p className="text-lg leading-[28px] text-center">{item.desc}</p>
+        <p className="text-lg leading-[28px] text-justify">{item.desc}</p>
       </div>
     </div>
   );

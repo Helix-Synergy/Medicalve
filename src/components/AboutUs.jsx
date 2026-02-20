@@ -32,18 +32,18 @@ const AboutUs = () => {
           <span className="text-one">Innovations</span> in Global Health: Bridging Gaps{" "}
           <span className="text-one">through Technology & Collaboration</span>
         </h1>
+<div className="flex flex-col gap-3 mt-4">
+  {about_points.map((item, idx) => (
+    <div key={idx} className="flex gap-2">
+      <CircleChevronRight size={24} className="text-one flex-shrink-0 mt-1" />
+      <p className="flex-1 min-w-0 text-sm md:text-base text-justify">
+        {item}
+      </p>
+    </div>
+  ))}
+</div>
 
-        <div className="flex flex-col gap-3 mt-4">
-          {about_points.map((item, idx) => (
-            <div key={idx} className="flex flex-row gap-2 items-start">
-              <CircleChevronRight
-                size={24}
-                className="text-one flex-shrink-0 mt-1"
-              />
-              <p className="text-sm md:text-base">{item}</p>
-            </div>
-          ))}
-        </div>
+
 
         <Link to="/about-global-medical-conclave">
           <button className="flex bg-black text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">

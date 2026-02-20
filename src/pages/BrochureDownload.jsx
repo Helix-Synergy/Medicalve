@@ -133,27 +133,160 @@ const BrochureDownload = () => {
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-          <input name="firstName" value={form.firstName} onChange={handleChange} placeholder="First Name" required className="border p-4 rounded-xl" />
-          <input name="lastName" value={form.lastName} onChange={handleChange} placeholder="Last Name" required className="border p-4 rounded-xl" />
-          <input name="mobileNumber" value={form.mobileNumber} onChange={handleChange} placeholder="Mobile Number" required className="border p-4 rounded-xl" />
-          <input name="email" value={form.email} onChange={handleChange} placeholder="Email" required className="border p-4 rounded-xl" />
-          <input name="address" value={form.address} onChange={handleChange} placeholder="Address" required className="border p-4 rounded-xl" />
-          <input name="state" value={form.state} onChange={handleChange} placeholder="State" required className="border p-4 rounded-xl" />
-          <input name="country" value={form.country} onChange={handleChange} placeholder="Country" required className="border p-4 rounded-xl" />
-          <input name="university" value={form.university} onChange={handleChange} placeholder="University / Industry" required className="border p-4 rounded-xl" />
-          <input name="affiliation" value={form.affiliation} onChange={handleChange} placeholder="Affiliation" required className="border p-4 rounded-xl" />
-          <input name="linkedin" value={form.linkedin} onChange={handleChange} placeholder="LinkedIn Profile URL" className="border p-4 rounded-xl" />
-          <input name="twitter" value={form.twitter} onChange={handleChange} placeholder="Twitter Handle" className="border p-4 rounded-xl" />
-          <select name="interestedIn" value={form.interestedIn} onChange={handleChange} required className="border p-4 rounded-xl col-span-2">
-            <option value="">Interested in</option>
-            {presentationOptions.map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+
+  <div className="flex flex-col">
+    <label htmlFor="firstName" className="mb-1 font-medium">First Name</label>
+    <input
+      id="firstName"
+      name="firstName"
+      value={form.firstName}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="lastName" className="mb-1 font-medium">Last Name</label>
+    <input
+      id="lastName"
+      name="lastName"
+      value={form.lastName}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="mobileNumber" className="mb-1 font-medium">Mobile Number</label>
+    <input
+      id="mobileNumber"
+      name="mobileNumber"
+      value={form.mobileNumber}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="email" className="mb-1 font-medium">Email Address</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      value={form.email}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="address" className="mb-1 font-medium">Address</label>
+    <input
+      id="address"
+      name="address"
+      value={form.address}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="state" className="mb-1 font-medium">State</label>
+    <input
+      id="state"
+      name="state"
+      value={form.state}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="country" className="mb-1 font-medium">Country</label>
+    <input
+      id="country"
+      name="country"
+      value={form.country}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="university" className="mb-1 font-medium">University / Industry</label>
+    <input
+      id="university"
+      name="university"
+      value={form.university}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="affiliation" className="mb-1 font-medium">Affiliation</label>
+    <input
+      id="affiliation"
+      name="affiliation"
+      value={form.affiliation}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="linkedin" className="mb-1 font-medium">LinkedIn Profile URL</label>
+    <input
+      id="linkedin"
+      name="linkedin"
+      value={form.linkedin}
+      onChange={handleChange}
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col">
+    <label htmlFor="twitter" className="mb-1 font-medium">Twitter Handle</label>
+    <input
+      id="twitter"
+      name="twitter"
+      value={form.twitter}
+      onChange={handleChange}
+      className="border p-4 rounded-xl"
+    />
+  </div>
+
+  <div className="flex flex-col md:col-span-2">
+    <label htmlFor="interestedIn" className="mb-1 font-medium">Interested In</label>
+    <select
+      id="interestedIn"
+      name="interestedIn"
+      value={form.interestedIn}
+      onChange={handleChange}
+      required
+      className="border p-4 rounded-xl"
+    >
+      <option value="">Select an option</option>
+      {presentationOptions.map((option) => (
+        <option key={option} value={option}>
+          {option}
+        </option>
+      ))}
+    </select>
+  </div>
+
+</div>
+
 
         <button
           type="submit"

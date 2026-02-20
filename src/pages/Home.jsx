@@ -24,9 +24,9 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <h1 className="text-4xl md:text-7xl my-4 w-full md:w-[90vw]">
+          <h2 className="text-4xl md:text-7xl my-4 w-full md:w-[90vw]">
             {home_section.title}
-          </h1>
+          </h2>
           <p className="text-2xl md:text-5xl">{home_section.subTitle}</p>
           {/* <p className="text-sm md:text-lg font-normal my-4 w-full md:w-1/2">
             There are many variations of passing available but the majority have

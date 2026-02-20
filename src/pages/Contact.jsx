@@ -123,36 +123,53 @@ const ContactForm = () => {
   ];
 
   const hybridConferences = [
-    "International Pharmacectical Summit",
-    "World Pharmacy Conclave",
-    "Global Conclave on Forensic Sciences",
-    "World Nursing Summit",
-    "World Medical-Surgical Nursing Summit",
-    "International Critical Care Nursing Conclave",
-    "World Summit on Environmental Chemistry",
-    "International Conferences on Biochemistry",
-    "International Chemistry Conclave",
-    "18th  Advanced Medical Practices Conclave",
-    "International Health Sciences Conclave",
-    "World Environmental Medicine Summit",
-    "22nd World Agriculture & Food Sciences Conclave",
-    "Global Agricultural Technology Conclave",
-    "International Food Technology Congress",
-    "Global Physics Summit",
-    "International Material Sciences Summit",
-    "World Earth Science Summit",
-    "12th International Science & Technology Summit",
-    "International Conferences on Biomedical Engineering",
-    "World Summit on Industrial Engineering",
-    "Global Nanotechnology Summit",
-    "International Nanomaterials Conclave",
-    "World Nanomedicine Summit",
-    "Global Bioinformatics summit",
-    "World Biofuel Congress",
-    "International Biotechnology Conclave",
-    "Global Stem Cell & Regenerative Medicine Summit",
-    "World Summit on Artificial Intelligence in Healthcare",
-    "International Conference on Climate Engineering",
+    "Food, Agriculture & Environmental Sciences Forum",
+    "Food Microbiome Summit",
+    "Regenerative AgriTech Forum",
+    "Future FoodTech Expo",
+    "Millets & Climate-Resilient Agriculture Summit",
+    "Advanced Medical Practices Conclave",
+    "Digital Pathology & AI Diagnostics Congress",
+    "Precision Medicine Summit",
+    "Aesthetic Medicine & Cosmetic Innovation Summit",
+    "World Quantam Technology Summit",
+    "Zero-Trust Security & AI Defense Forum",
+    "Smart Materials, Nanotech & Advanced Manufacturing Congress",
+    "Advanced Materials & Clean Energy Forum",
+
+    "Advanced Pharmaceutical Sciences Forum",
+    "AI Drug Discovery Conclave",
+    "Cell & Gene Therapy Manufacturing Summit",
+    "Real-World Evidence & Pharma Access Forum",
+    " Nursing & Nurse Practices Conclave",
+    "AI & Digital Nursing Forum",
+    "Critical & Emergency Care Summit",
+    "Nursing Leadership & Workforce Excellence Congress",
+    
+     "Food, Agriculture & Environmental Sciences Forum",
+    "Food Microbiome Summit",
+    "Regenerative AgriTech Forum",
+    "Future FoodTech Expo",
+    "Millets & Climate-Resilient Agriculture Summit",
+    "Advanced Medical Practices Conclave",
+    "Digital Pathology & AI Diagnostics Congress",
+    "Precision Medicine Summit",
+    "Aesthetic Medicine & Cosmetic Innovation Summit",
+    "World Quantam Technology Summit",
+    "Zero-Trust Security & AI Defense Forum",
+    "Smart Materials, Nanotech & Advanced Manufacturing Congress",
+    "Advanced Materials & Clean Energy Forum",
+
+
+      "Advanced Pharmaceutical Sciences Forum",
+    "AI Drug Discovery Conclave",
+    "Cell & Gene Therapy Manufacturing Summit",
+    "Real-World Evidence & Pharma Access Forum",
+    " Nursing & Nurse Practices Conclave",
+    "AI & Digital Nursing Forum",
+    "Critical & Emergency Care Summit",
+    "Nursing Leadership & Workforce Excellence Congress",
+    
   ];
 
   const infiniteWebinars = [...webinars, ...webinars];
@@ -170,12 +187,12 @@ const ContactForm = () => {
         </h1>
       </div>
 
-      <div className="w-full flex flex-col md:flex-row gap-6 py-4 items-stretch justify-center md:px-10 px-4">
+       <div className="w-full flex flex-col md:flex-row gap-6  items-stretch justify-center md:px-10 px-4">
         {/* Left Side - Webinars & Conferences */}
-        <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg">
-          <h1 className="text-black text-3xl sm:text-4xl font-bold text-center">
-            Upcoming Conferences
-          </h1>
+        <div className="w-full md:w-1/2 flex flex-col items-center justify-center px-4 py-8 bg-white border border-gray-200 rounded-xl shadow-lg ">
+          <h2 className="text-black text-3xl sm:text-4xl font-bold text-center mt-[-32px]">
+            Upcoming Conferences-2026
+          </h2>
           <div
             className="w-full flex flex-col py-6 md:flex-row gap-6 "
             // style={{
@@ -183,7 +200,7 @@ const ContactForm = () => {
             // }}
           >
             {/* Webinars */}
-            <div className="w-full md:w-1/2 h-[70vh] bg-white border border-one shadow-md rounded-xl overflow-hidden">
+            {/* <div className="w-full md:w-1/2 h-[70vh] bg-white border border-one shadow-md rounded-xl overflow-hidden">
               <h2 className="bg-one text-white text-xl font-bold py-3 text-center z-10 relative">
                 Webinars
               </h2>
@@ -206,7 +223,7 @@ const ContactForm = () => {
                   (e.currentTarget.querySelector(".scrolling-list").style.animationPlayState = "running")
                 }
               >
-                <div className="scrolling-list">
+                {/* <div className="scrolling-list">
                   {infiniteWebinars.map((item, idx) => (
                     <a
                       key={`webinar-${idx}`}
@@ -218,14 +235,14 @@ const ContactForm = () => {
                       {item}
                     </a>
                   ))}
-                </div>
-              </div>
-            </div>
+                </div> */}
+              {/* </div>
+            </div> */} 
 
             {/* Hybrid Conferences */}
-            <div className="w-full md:w-1/2 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
-              <h2 className="bg-one/80 text-white text-xl font-bold py-3 text-center z-10 relative">
-                Hybrids
+            <div className="w-full md:w-100 h-200 bg-white border border-one shadow-md rounded-xl overflow-hidden h-[70vh]">
+              <h2 className="bg-accent text-white text-xl font-bold py-3 text-center z-10 relative">
+              Conferences-2026
               </h2>
               <div
                 className="relative overflow-y-auto scrollbar-hide"
@@ -283,60 +300,91 @@ const ContactForm = () => {
               </div>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                name="firstName"
-                value={form.firstName}
-                onChange={handleChange}
-                placeholder="First Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-              <input
-                name="lastName"
-                value={form.lastName}
-                onChange={handleChange}
-                placeholder="Last Name"
-                required
-                className="border border-gray-300 p-3 rounded"
-              />
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div className="flex flex-col gap-1">
+    <label htmlFor="firstName" className="text-sm font-medium text-gray-700 text-left">
+      First Name
+    </label>
+    <input
+      name="firstName"
+      value={form.firstName}
+      onChange={handleChange}
+      placeholder="First Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
 
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Email"
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+  <div className="flex flex-col gap-1">
+    <label htmlFor="lastName" className="text-sm font-medium text-gray-700 text-left">
+      Last Name
+    </label>
+    <input
+      name="lastName"
+      value={form.lastName}
+      onChange={handleChange}
+      placeholder="Last Name"
+      required
+      className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+    />
+  </div>
+</div>
 
-            <input
-              name="phone"
-              value={form.phone}
-              onChange={handleChange}
-              placeholder="Phone"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="email" className="text-sm font-medium text-gray-700 text-left">
+    Email
+  </label>
+  <input
+    type="email"
+    name="email"
+    value={form.email}
+    onChange={handleChange}
+    placeholder="Email"
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <input
-              name="company"
-              value={form.company}
-              onChange={handleChange}
-              placeholder="Company / University"
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="phone" className="text-sm font-medium text-gray-700 text-left">
+    Phone
+  </label>
+  <input
+    name="phone"
+    value={form.phone}
+    onChange={handleChange}
+    placeholder="Phone"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
 
-            <textarea
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="Your Message"
-              rows={4}
-              required
-              className="border border-gray-300 p-3 rounded"
-            />
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="company" className="text-sm font-medium text-gray-700 text-left">
+    Company / University
+  </label>
+  <input
+    name="company"
+    value={form.company}
+    onChange={handleChange}
+    placeholder="Company / University"
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+  />
+</div>
+
+<div className="flex flex-col gap-1 mt-5">
+  <label htmlFor="message" className="text-sm font-medium text-gray-700 text-left">
+    Your Message
+  </label>
+  <textarea
+    name="message"
+    value={form.message}
+    onChange={handleChange}
+    placeholder="Your Message"
+    rows={4}
+    required
+    className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none"
+  />
+</div>
 
             <button
               type="submit"

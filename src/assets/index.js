@@ -48,6 +48,7 @@ import {
   BookOpen,
   Send,
 } from "lucide-react";
+import { FaXTwitter } from "react-icons/fa6";
 import { base, link } from "framer-motion/client";
 
 // import group_1 from './group.png'
@@ -135,7 +136,7 @@ export const socialLinks = [
     id: "twitter",
     name: "Twitter (X)",
     url: "https://x.com/Helixconfe69272",
-    icon: <Twitter size={18} />,
+    icon: <FaXTwitter size={18} />,
   },
   {
     id: "instagram",
@@ -198,13 +199,13 @@ export const panel_members = [
     about: "Founder & Prof.",
     link: "/Hassan-El-Tamimi",
   },
-  {
-    name: "Mohamed Hosni",
-    from: "UK",
-    image: Mohamed,
-    about: "CEO & Prof.",
-    link: "/Mohamed-Hosni",
-  },
+  // {
+  //   name: "Mohamed Hosni",
+  //   from: "UK",
+  //   image: Mohamed,
+  //   about: "CEO & Prof.",
+  //   link: "/Mohamed-Hosni",
+  // },
   {
     name: "Chrysoula I. Liakou",
     from: "Greece",
@@ -434,34 +435,34 @@ export const schedule_plan2 = [
 export const schedule_plan3 = [
   {
     time: "8:00AM - 9:00AM",
-    plan: "Mohamed Hosni",
+    // plan: "Mohamed Hosni",
   },
   {
     time: "9:00AM - 9:30AM",
-    plan: "Mohamed Hosni",
+    // plan: "Mohamed Hosni",
   },
   {
     time: "9:30AM - 9:45AM",
-    plan: "Mohamed Hosni",
+    // plan: "Mohamed Hosni",
   },
   {
     time: "9:45AM - 10:15AM",
-    plan: "Mohamed Hosni",
+    // plan: "Mohamed Hosni",
   },
   {
     time: "10:15AM - 10:45AM",
-    plan: "Mohamed Hosni",
+    // plan: "Mohamed Hosni",
   },
 ];
 
 export const orators = [
-  {
-    image: Mohamed,
-    name: "Prof. Mohamed Hosni",
-    from: "United Kingdom",
-    about: "CEO & Prof.",
-    link: "/mohamed-honsi",
-  },
+  // {
+  //   image: Mohamed,
+  //   name: "Prof. Mohamed Hosni",
+  //   from: "United Kingdom",
+  //   about: "CEO & Prof.",
+  //   link: "/mohamed-honsi",
+  // },
   {
     image: Chrysoula,
     name: "Prof. Chrysoula I. Liakou",
@@ -556,13 +557,13 @@ export const panel_members_data = [
     about: "CEO & Prof.",
     link: "/laura-babriela-sarbu",
   },
-  {
-    image: Mohamed,
-    name: "Mohamed Hosni",
-    from: "United Kingdom",
-    about: "CEO & Prof.",
-    link: "/mohamed-hosni",
-  },
+  // {
+  //   image: Mohamed,
+  //   name: "Mohamed Hosni",
+  //   from: "United Kingdom",
+  //   about: "CEO & Prof.",
+  //   link: "/mohamed-hosni",
+  // },
   {
     image: Dana,
     name: "Dana York",
@@ -580,13 +581,13 @@ export const panel_members_data = [
 ];
 
 export const orators_data = [
-  {
-    image: dr_3,
-    name: "Mohamed Hosni",
-    desc: "Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.",
-    banner: mohamed_banner
+  // {
+  //   image: dr_3,
+  //   name: "Mohamed Hosni",
+  //   desc: "Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.",
+  //   banner: mohamed_banner
     
-  },
+  // },
   {
     image: Chrysoula,
     name: "Chrysoula I. Liakou",
@@ -623,13 +624,13 @@ export const abu_data = {
   banner: mohammed_banner
 }
 
-export const mohamed_data = {
-  image: dr_3,
-  from: "Imperial College Healthcare NHS Trust, London, United Kingdom",
-  name: "Mohamed Hosni",
-  desc: "Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.",
-  banner: mohamed_banner
-}
+// export const mohamed_data = {
+//   image: dr_3,
+//   from: "Imperial College Healthcare NHS Trust, London, United Kingdom",
+//   name: "Mohamed Hosni",
+//   desc: "Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.",
+//   banner: mohamed_banner
+// }
 
 export const chrysoula_data = {
   image: Chrysoula,
@@ -685,14 +686,14 @@ export const Laura_data = {
   banner: laure_banner
 };
 
-export const Hosni_data = {
-  name: "Mohamed Hosni",
-  // about: "Consultant Obstetrician and Gynaecologist",
-  from: "Imperial College Hospitals, London, UK",
-  image: Mohamed,
-  desc: `Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.`,
-  banner: mohamed_banner
-};
+// export const Hosni_data = {
+//   name: "Mohamed Hosni",
+//   // about: "Consultant Obstetrician and Gynaecologist",
+//   from: "Imperial College Hospitals, London, UK",
+//   image: Mohamed,
+//   desc: `Mr Mohamed Hosni is a Consultant Obstetrician and Gynaecologist at Imperial College Hopsitals in London, United Kingdom, with over 20 years of experience. He is a very experienced laparoscopic surgeon, with international reputation in minimal access surgery and endometriosis. He has a broad clinical research background and has collaborated with numerous doctors and scientists on different projects in Obstetric and Gynaecologic research. He has presented both Nationally and Internationally, have several peer-reviewed publications in scientific journals. He completed MD, MSc, and he is currently a member of the Royal College of Obstetricians and Gynaecologists. He is a firm believer in a patient-centred approach, personalized on an individual basis. He is entirely dedicated to his profession. He places a significant importance on taking time to listen to each patients’ specific needs and providing them with a thorough explanation of their treatment options.`,
+//   banner: mohamed_banner
+// };
 
 export const Dana_data = {
   name: "Dana York",

@@ -87,28 +87,33 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav
-          className={`hidden md:flex items-center text-md ${
-            scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
-          }`}
-        >
-          {nav_links.map((item, index) => (
-            <Link
-              key={index}
-              to={item.link}
-              className={`hover-underline-animation text-gray-700 hover:text-accent transition ${
-                location.pathname === item.link
-                  ? "border-slate-700"
-                  : "border-transparent"
-              }`}
-              style={{
-                marginRight: scrolled ? "0px" : "2px",
-              }}
-            >
-              {item.name}
-            </Link>
-          ))}
-        </nav>
+    {/* Desktop Navigation */}
+<nav
+  className={`hidden md:flex items-center text-md ${
+    scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
+  }`}
+>
+  {nav_links.map((item, index) => {
+    const isActive = location.pathname === item.link; // check if this is the current page
+    return (
+      <Link
+        key={index}
+        to={item.link}
+        className={`text-gray-700 transition relative ${
+          isActive
+            ? "text-accent after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-one after:rounded" // underline for active page
+            : "hover-underline-animation"
+        }`}
+        style={{
+          marginRight: scrolled ? "0px" : "2px",
+        }}
+      >
+        {item.name}
+      </Link>
+    );
+  })}
+</nav>
+
 
         {/* Desktop Register + Phone */}
         <div className="hidden md:flex items-center gap-5">

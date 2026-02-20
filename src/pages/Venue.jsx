@@ -16,17 +16,17 @@ const Venue = () => {
         <h2 className="text-base md:text-lg font-normal text-one mb-4">
           Proposed Conference Venue
         </h2>
-        <h1 className="text-xl md:text-2xl gap-2 flex flex-row items-center justify-center">
+        <h2 className="text-xl md:text-2xl gap-2 flex flex-row items-center justify-center">
           <MapPin /> Coming Soon
           {/* Novotel Valencia Lavant */}
-        </h1>
+        </h2>
         <p className="text-sm md:text-[15px] flex flex-row items-center font-normal justify-center">
-          <PlaneIcon className="mr-1" />
-Coming Soon
+          {/* <PlaneIcon className="mr-1" />
+Coming Soon */}
           {/* Valencia International Airport (Manises), Valencia, Spain */}
         </p>
         <h3 className="text-sm md:text-[18px] gap-2 font-normal flex flex-row items-center justify-center">
-          <Star size={18} /> 4.5 rating
+          {/* <Star size={18} /> 4.5 rating */}
         </h3>
       </div>
  

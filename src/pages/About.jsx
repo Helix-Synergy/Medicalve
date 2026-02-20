@@ -131,9 +131,9 @@ const AboutMediclave = () => {
   return (
     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
       <div className={`${banner_style} mx-auto about`}>
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
+        <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
           {data.event.title}
-        </h1>
+        </h2>
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">MEDICLAVE</h1>
@@ -144,7 +144,7 @@ const AboutMediclave = () => {
       {data.event.description.map((para, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl mx-auto"
+          className="mb-6 text-lg leading-relaxed text-center w-full max-w-5xl mx-auto text-justify"
         >
           {para}
         </p>

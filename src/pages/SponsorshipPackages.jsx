@@ -101,7 +101,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   loading="lazy"
                   className="object-contain w-16 h-16"
                 />
@@ -136,7 +136,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   loading="lazy"
                   className="object-contain w-16 h-16"
                 />

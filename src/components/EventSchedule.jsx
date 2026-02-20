@@ -57,7 +57,7 @@ const EventSchedule = ({ height, name, link }) => {
               <div className="text-xs">{weekday}</div>
             </div> */}
             <div className="flex flex-row items-center gap-2">
-              <h1
+              <h2
                 className={`${
                   selectedDay === day
                     ? "bg-white text-black"
@@ -65,7 +65,7 @@ const EventSchedule = ({ height, name, link }) => {
                 } p-1 rounded-lg font-semibold`}
               >
                 {label2} <br />0{day}
-              </h1>
+              </h2>
               <div>
                 <p className="text-xl font-bold">
                   {label}

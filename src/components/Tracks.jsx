@@ -17,7 +17,7 @@ const TracksSection = () => {
             key={idx}
             className="flex flex-row gap-2 px-3 py-4 items-center justify-start border rounded-lg border-transparent shadow hover:shadow-lg hover:border-one transition-all text-center cursor-pointer bg-white"
           >
-            <img src={icon} alt="" className='h-8 w-8' loading="lazy"/>
+            <img src={icon} alt="Track" className='h-8 w-8' loading="lazy"/>
             <p className="text-sm font-medium text-gray-800">{name}</p>
           </div>
         ))}

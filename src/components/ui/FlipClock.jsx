@@ -49,7 +49,7 @@ const FlipClock = () => {
     return () => window.removeEventListener('resize', updateStyles);
   }, []);
 
-  const targetDate = new Date(new Date().getFullYear(), 10, 25); // Nov 25
+  const targetDate = new Date(new Date().getFullYear(), 4, 21); 
 
   return (
     <div className="md:w-full md:p-2 rounded-xl flex items-center justify-center">

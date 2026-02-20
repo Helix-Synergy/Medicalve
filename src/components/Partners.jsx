@@ -37,11 +37,11 @@ const Partners = () => {
     <div className="py-16 bg-white flex flex-col items-center">
       {/* <p className="text-one font-semibold text-xl mb-2">Partners</p> */}
       <h1 className="text-4xl text-black font-bold text-center mb-10">
-        Mediclave - Event Partners
+        Medicalve- Event Partners
       </h1>
 
       {/* Carousel Container */}
-      <div className="w-[90vw] overflow-hidden">
+      <div className="w-[85vw] overflow-hidden">
         <div ref={wrapperRef} className="w-full">
           <div
             ref={scrollRef}
@@ -54,12 +54,12 @@ const Partners = () => {
           >
             {/* Duplicate the list twice for seamless loop */}
             {[...PartnerImageList, ...PartnerImageList].map((img, idx) => (
-              <div key={`${img.id}-${idx}`} className="mx-8 flex-shrink-0">
+              <div key={`${img.id}-${idx}`} className="mx-8 flex-shrink-0 border rounded-lg p-2 border-one">
                 <img
                   src={img.name}
                   alt={`Partner ${img.id}`}
                   loading="lazy"
-                  className="h-20 w-40 object-contain border border-one rounded-lg"
+                  className="h-20 w-auto object-contain"
                 />
               </div>
             ))}

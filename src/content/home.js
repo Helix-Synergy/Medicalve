@@ -34,12 +34,12 @@ export const executive_panel = {
       country: 'UAE',
       image: 'ima', // Replace with actual image path or URL
     },
-    {
-      name: 'Mohamed Hosni',
-      title: 'CEO & Prof.',
-      country: 'UK',
-      image: 'ima', // Replace with actual image path or URL
-    },
+    // {
+    //   name: 'Mohamed Hosni',
+    //   title: 'CEO & Prof.',
+    //   country: 'UK',
+    //   image: 'ima', // Replace with actual image path or URL
+    // },
     {
       name: 'Chrysoula I. Liakou',
       title: 'Founder & Prof.',
@@ -162,12 +162,12 @@ export const mediclave_orators = {
   description:
     'Renowned experts from across the globe sharing insights and leading the conversation at Mediclave.',
   orators: [
-    {
-      name: 'Prof. Mohamed Hosni',
-      title: 'CEO & Prof.',
-      country: 'United Kingdom',
-      image: 'mohamed-hosni.jpg', // replace with actual image path or URL
-    },
+    // {
+    //   name: 'Prof. Mohamed Hosni',
+    //   title: 'CEO & Prof.',
+    //   country: 'United Kingdom',
+    //   image: 'mohamed-hosni.jpg', // replace with actual image path or URL
+    // },
     {
       name: 'Prof. Chrysoula I. Liakou',
       title: 'CEO & Prof.',
