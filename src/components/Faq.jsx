@@ -2,17 +2,17 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What is the Mediclave 2026?",
+    question: "What is the Mediclave 2027?",
     answer:
-      "Mediclave 2026, officially known as the “ Advanced Medical Practices Conclave” (MEDICLAVE-2026), is a premier international Medical conference organized by Helix Conferences. The event aims to bring together Healthcare Professionals, Researchers, and Industry leaders to discuss and explore advancements in Health Care Sector.",
+      "Mediclave 2027, officially known as the “ Advanced Medical Practices Conclave” (MEDICLAVE-2027), is a premier international Medical conference organized by Helix Conferences. The event aims to bring together Healthcare Professionals, Researchers, and Industry leaders to discuss and explore advancements in Health Care Sector.",
   },
   {
-    question: "When and Where will the Mediclave 2026 take place?",
+    question: "When and Where will the Mediclave 2027 take place?",
     answer:
-      "The conference will be held in Vienna, Austria from May 21-22, 2026.",
+      "The conference will be held in Vienna, Austria from May 24-25, 2027.",
   },
   {
-    question: "What are the highlights of Mediclave 2026?",
+    question: "What are the highlights of Mediclave 2027?",
     answer:
       "Networking opportunities with Industry leaders and Healthcare Professionals. Interactive Workshops and Sessions. Exhibitions showcasing Innovations, Products, and Services.",
   },

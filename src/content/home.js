@@ -1,10 +1,10 @@
 // Home section content ---------------------------------
 export const home_section = {
     month: 'May',
-    date: '21-22 | 2026',
+    date: '24-25 | 2027',
     venue:'Vienna | Austria',
     title: ' Advanced Medical Practices Conclave',
-    subTitle: 'MEDICLAVE - 2026'
+    subTitle: 'MEDICLAVE - 2027'
 }
 
 // About Section Content ----------------------------

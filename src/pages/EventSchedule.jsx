@@ -41,7 +41,7 @@ const Schedule = () => {
       <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
         <div className={`${banner_style} event_schedule w-full`}>
                 <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-            Mediclave - 2026
+            Mediclave - 2027
           </h1>
         </div>
         <div className="md:px-16 md:mb-8">

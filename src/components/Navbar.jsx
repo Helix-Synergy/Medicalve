@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { logo, med_logo } from "../assets";
+import logo from "../assets/MEDICIAVELOGO.jpg"
 import { Menu, Phone, X } from "lucide-react";
 import "../styles/googleTranslate.css";
 import { Link, useLocation } from "react-router-dom";
@@ -41,7 +41,7 @@ const Navbar = () => {
           }`}
         >
           <img
-            src={med_logo}
+            src={logo}
             alt="Helix Conferences"
             className={`rounded-full object-fill transition-all duration-300`}
             loading="lazy"

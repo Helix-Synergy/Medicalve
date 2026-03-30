@@ -1,7 +1,7 @@
 import React from "react";
-import { med_logo, mediclave_logo, socialLinks, WhatsAppIcon } from "../assets";
+import { socialLinks, WhatsAppIcon } from "../assets";
 import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
-
+import logo from "../assets/MEDICIAVELOGO.jpg"
 const Footer = () => {
   const nav_links = [
     { name: "About", link: "/about-global-medical-conclave" },
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="w-full md:w-1/4 gap-4 flex flex-col items-center text-center">
         {/* <h1 className="text-slate-100 text-3xl">Mediclave</h1> */}
         <div className="bg-white pt-4 rounded-xl shadow-md">
-          <img src={med_logo} alt="Mediclave Logo" className="h-32 md:h-56 rounded-lg" loading="lazy" />
+          <img src={logo} alt="Mediclave Logo" className="h-32 md:h-56 rounded-lg" loading="lazy" />
         </div>
         <p className="text-slate-200 text-sm px-4 md:px-8  text-justify">
           Innovations in Global Health: Bridging Gaps through Technology & Collaboration
@@ -86,7 +86,7 @@ const Footer = () => {
           <div className="flex flex-row gap-2 items-start md:justify-start px-6 md:px-0">
             <MapPin size="30" />
             <p>
-            Vancouver | Canada
+         1200 West 73rd Avenue #1100, Vancouver, British Columbia‎, Canada
               
             </p>
           </div>

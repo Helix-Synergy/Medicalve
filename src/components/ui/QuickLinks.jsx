@@ -14,7 +14,7 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/brochure-download'
+    link: '/2027-MEDICLAVE.pdf'
   },
   {
     id: 'event-schedule',

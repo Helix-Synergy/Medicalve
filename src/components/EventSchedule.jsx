@@ -9,8 +9,8 @@ const EventSchedule = ({ height, name, link }) => {
   const [loading, setLoading] = useState(true);
 
   const dayButtons = [
-    { day: 1, label: "21", label2: " Day"  },
-    { day: 2, label: "22", label2: " Day" },
+    { day: 1, label: "24", label2: " Day"  },
+    { day: 2, label: "25", label2: " Day" },
     // { day: 3, label: "27", label2: " Day", weekday: "Monday" },
   ];
 

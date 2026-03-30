@@ -19,11 +19,11 @@ import { banner_style } from "../assets/styles";
 const data = {
   event: {
     title: "About Event",
-    date: "21–22 May  2026",
+    date: "24–25 May  2027",
     location: "Vienna, Austria",
     organizer: "Helix Conferences",
     description: [
-      "Join us at the prestigious  Advanced Medical Practices Conclave – Mediclave 2026, where healthcare professionals, researchers, scientists, and policymakers unite to discuss groundbreaking developments, tackle pressing challenges, and shape the future of medical science. Mediclave is more than just a conference – it’s a dynamic platform for innovation, research, and collaboration in healthcare, medical technology, and patient care. With a focus on artificial intelligence, personalized medicine, and global health challenges, this conclave aims to foster partnerships and deliver impactful solutions.",
+      "Join us at the prestigious  Advanced Medical Practices Conclave – Mediclave 2027, where healthcare professionals, researchers, scientists, and policymakers unite to discuss groundbreaking developments, tackle pressing challenges, and shape the future of medical science. Mediclave is more than just a conference – it’s a dynamic platform for innovation, research, and collaboration in healthcare, medical technology, and patient care. With a focus on artificial intelligence, personalized medicine, and global health challenges, this conclave aims to foster partnerships and deliver impactful solutions.",
     ],
   },
   themes: [
@@ -114,7 +114,7 @@ const data = {
     },
   ],
   dates: {
-    eventDate: "21-22th May",
+    eventDate: "24-25th May",
     venue: "Vienna,Austria",
     registrationDeadline: "12th May",
   },
