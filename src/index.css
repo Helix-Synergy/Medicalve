@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 .home {
-  background-image: url("./assets/bg.jpg");
+  background-image: url("./assets/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .container {
   overflow-x: hidden;
 }
+
 .marquee {
   --gap: 1rem;
   position: relative;
@@ -35,7 +37,7 @@
   object-fit: contain;
 }
 
-.marquee__content > * {
+.marquee__content>* {
   flex: 0 0 auto;
   color: white;
   background: #e8daef;
@@ -94,8 +96,9 @@
   background-repeat: no-repeat;
   width: 100vw;
 }
+
 .about {
-  background-image: url("./assets/page_banners/About_page.png");
+  background-image: url("./assets/page_banners/About_page.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,24 +106,26 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
+  border-radius: 0;
+  width: 100%;
 }
+
 .contact {
-  background-image: url("./assets/page_banners/contact.png");
- display: flex;
+  background-image: url("./assets/page_banners/contact.webp");
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
+
 .event_schedule {
-  background-image: url("./assets/page_banners/schedule.png");
+  background-image: url("./assets/page_banners/schedule.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,12 +133,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
+
 .executive_members {
-  background-image: url("./assets/page_banners/executive_panel.png");
+  background-image: url("./assets/page_banners/executive_panel.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,12 +147,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
+
 .orators {
-  background-image: url("./assets/page_banners/orators.png");
+  background-image: url("./assets/page_banners/orators.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,12 +161,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
+
 .sponsors_package {
-  background-image: url("./assets/page_banners/About_page.png");
+  background-image: url("./assets/page_banners/About_page.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,12 +175,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
+
 .venue {
-  background-image: url("./assets/page_banners/venue.png");
+  background-image: url("./assets/page_banners/venue.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,9 +189,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 /* .banner{
@@ -202,6 +211,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -250,7 +260,7 @@
 
 
 .venue-banner {
-  background-image: url("./assets/page_banners/executive_panel.png");
+  background-image: url("./assets/page_banners/executive_panel.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,14 +268,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
 
 .brochure-banner {
-  background-image: url("./assets/page_banners/orators.png");
+  background-image: url("./assets/page_banners/orators.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,13 +283,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 5%;
+  border-radius: 0;
+  width: 100%;
+  
 }
 
-.abstract-banner{
-  background-image: url("./assets/page_banners/executive_panel.png");
+.abstract-banner {
+  background-image: url("./assets/page_banners/executive_panel.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,5 +297,5 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 0;
 }

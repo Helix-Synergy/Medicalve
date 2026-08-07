@@ -21,11 +21,6 @@ const Carousel = () => {
       id: 4,
       image: banner_images.banner_four,
     },
-
-    {
-      id: 5,
-      image: banner_images.banner_five,
-    },
     
   ];
 
@@ -44,7 +39,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(goToNext, 5000);
     return () => clearInterval(interval);
-  }, [currentIndex]);
+  }, [currentIndex, goToNext]);
 
   return (
     <div className="relative max-w-[90%] h-[130px] sm:h-[280px] md:h-[50%] mx-auto overflow-hidden rounded-lg bg-slate-200 border border-one">

@@ -51,8 +51,9 @@ const BrochureDownload = () => {
         formData.append(key, form[key]);
       });
 
+      const apiUrl = process.env.REACT_APP_BACKEND_URL || "https://api.helixconferences.com";
       const res = await axios.post(
-        "https://backend-code-6vqy.onrender.com/brochure-download",
+        `${apiUrl}/brochure-download`,
         formData, // Sending FormData
         {
           // headers: { "Content-Type": "multipart/form-data" }, // <-- REMOVED/COMMENTED: axios automatically sets this for FormData
@@ -64,8 +65,8 @@ const BrochureDownload = () => {
         setStatus({ type: "success", message: res.data.message || "Form submitted successfully. Brochure will now download." }); // <-- CHANGED: Replaced alert with status
         // Trigger brochure download
         const link = document.createElement("a");
-        link.href = "/public_health_brochure.pdf"; // Make sure this path is correct
-        link.setAttribute("download", "public_health_brochure.pdf");
+        link.href = "/Mediclave.pdf";
+        link.setAttribute("download", "Mediclave.pdf");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -110,7 +111,7 @@ const BrochureDownload = () => {
   ];
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       <div className={`${banner_style} w-full mx-auto brochure-banner`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Brochure Download

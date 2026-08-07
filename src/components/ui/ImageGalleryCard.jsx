@@ -12,7 +12,7 @@ const ImageGalleryCard = () => {
           className="h-44 w-full sm:w-40 object-cover rounded-xl"
         />
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Wien_-_Stephansdom_%281%29.JPG"
+          src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Wien_-_Stephansdom_%281%29.webp"
           alt="Venue Image 2"
           loading="lazy"
           className="h-44 w-full sm:w-[60%] object-cover rounded-xl"

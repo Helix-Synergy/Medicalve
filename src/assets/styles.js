@@ -1,7 +1,7 @@
-export const banner_style = "overflow-x-hidden min-w-7xl h-[58vh] min-h-[300px] text-center flex justify-center items-center bg-black mb-8";
+export const banner_style = "overflow-x-hidden w-full h-[58vh] min-h-[300px] text-center flex justify-center items-center bg-black mb-8";
 
 export const styles = {
-  container: 'w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20 2xl:max-w-[1280px] mx-auto',
+  container: 'w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20  mx-auto',
   fullWidthImage: 'w-full h-auto object-cover',
   section: 'w-full py-12 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-20',
   twoColumnGrid: 'grid grid-cols-1 md:grid-cols-2 gap-8 items-center',

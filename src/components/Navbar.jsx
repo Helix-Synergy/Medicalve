@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../assets/MEDICIAVELOGO.jpg"
+import logo from "../assets/MEDICIAVELOGO.webp"
 import { Menu, Phone, X } from "lucide-react";
 import "../styles/googleTranslate.css";
 import { Link, useLocation } from "react-router-dom";

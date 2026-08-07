@@ -33,8 +33,26 @@ import AbstractSubmission from "./pages/AbstractSubmission";
 import BrochureDownload from "./pages/BrochureDownload";
 import FAQPage from "./pages/FAQPage";
 import TracksSection from "./pages/TrackSection";
+import ChatbotWidget from "./components/Chatbot/ChatbotWidget";
 
 function App() {
+
+  useEffect(() => {
+    const recordVisit = async () => {
+      try {
+        const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || "https://backend-code-6vqy.onrender.com";
+        await fetch(`${API_BASE_URL}/api/record-visit`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'omit' // use omit to avoid CORS issues if origin is not explicitly allowed, since we rely on unique_visits count anyway, or use include if needed.
+        });
+      } catch (err) {
+        console.warn("Could not record visit:", err.message);
+      }
+    };
+    recordVisit();
+  }, []);
+
   const [showMiniNavbar, setShowMiniNavbar] = useState(true);
 
   useEffect(() => {
@@ -83,6 +101,7 @@ function App() {
         <Route path="chrysoula-i" element={<Chrysoula />} />
         <Route path="/mohamed-honsi" element={<MohamedHosni />} />
       </Routes>
+      <ChatbotWidget />
       <Footer />
     </Router>
   );

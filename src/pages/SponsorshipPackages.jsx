@@ -85,7 +85,7 @@ const last_item = [
 
 const SponsorshipPackages = () => {
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center lg:mb-12">
+    <div className="w-full  mx-auto justify-center items-center text-center lg:mb-12">
       <div className={`${banner_style} sponsors_package`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Sponsorship Packages

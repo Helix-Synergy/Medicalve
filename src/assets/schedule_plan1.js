@@ -1,9 +1,9 @@
 import { image } from "framer-motion/client";
 
-import breakfast from './breakfast.png'
-import refreshment from './refreshment.png'
-import registration from './registration.png'
-import dummy_img from './dummy.png'
+import breakfast from './breakfast.webp'
+import refreshment from './refreshment.webp'
+import registration from './registration.webp'
+import dummy_img from './dummy.webp'
 
 
 const schedule_plan2 = [

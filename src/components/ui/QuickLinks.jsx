@@ -2,19 +2,19 @@ import { Download, CalendarCheck, ScrollText, HelpCircle, Phone } from 'lucide-r
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { WhatsAppIcon } from '../../assets';
- 
+
 const links = [
   {
     id: 'mobile',
     icon: Phone,
     label: 'Call Us',
-    path: 'tel:+13052398055'
+    path: 'tel:+1-7036516096'
   },
   {
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/2027-MEDICLAVE.pdf'
+    link: '/brochure-download'
   },
   {
     id: 'event-schedule',
@@ -41,10 +41,10 @@ const links = [
     link: '/faq'
   }
 ];
- 
+
 const QuickLinks = () => {
   const [hoveredId, setHoveredId] = useState(null);
- 
+
   return (
     <>
       <style>
@@ -66,12 +66,12 @@ const QuickLinks = () => {
           transition: all 0.8s ease-in-out;
         }
       `}</style>
- 
+
       <div className="fixed bottom-8 right-0 z-30 flex flex-col space-y-3">
         {links.map(({ id, icon: Icon, label, path, link }) => {
           const isActive = hoveredId === id;
           const href = path || link;
- 
+
           return (
             <Link
               key={id}
@@ -80,9 +80,8 @@ const QuickLinks = () => {
               rel="noopener noreferrer"
               onMouseEnter={() => setHoveredId(id)}
               onMouseLeave={() => setHoveredId(null)}
-              className={`flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
-                isActive ? 'translate-x-0' : 'translate-x-40'
-              } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`}
+              className={`flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${isActive ? 'translate-x-0' : 'translate-x-40'
+                } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`}
             >
               <div className="bg-one text-white p-3 flex items-center justify-center rounded-l-full transition-custom">
                 <Icon className="h-5 w-5" />
@@ -97,5 +96,5 @@ const QuickLinks = () => {
     </>
   );
 };
- 
+
 export default QuickLinks;

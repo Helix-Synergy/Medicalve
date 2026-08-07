@@ -8,7 +8,7 @@ const Executive_members = () => {
   const total = panel_members_data.length;
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto text-center">
+    <div className="w-full  mx-auto text-center">
       {/* Banner Section */}
       <div className={`${banner_style} executive_members`}>
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 max-w-screen-lg mx-auto leading-tight">

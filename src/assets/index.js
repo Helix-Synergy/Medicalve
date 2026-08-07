@@ -1,7 +1,7 @@
 
-import weblogo from "./weblogo.png";
+import weblogo from "./weblogo.webp";
 import whatsapp from './logo-whatsapp.svg'
-import about_img from './about_img.jpg'
+import about_img from './about_img.webp'
 
 import {
   // HeartPulse,
@@ -19,19 +19,19 @@ import seven from "./partners/seven.webp";
 // import nine from "./partners/nine.webp";
 
 import Alireza from "./panel_members/Alireza.webp";
-import Chrysoula from "./orators/chrysoula.png";
-import Dana from "./panel_members/dana.jpg";
+import Chrysoula from "./orators/chrysoula.webp";
+import Dana from "./panel_members/dana.webp";
 import Hassan from "./panel_members/Hassan-El-Tamimi.webp";
 import Laura from "./panel_members/LauraSarbu.webp";
 import Mihail from "./panel_members/Mihail.webp";
-import Mohamed from "./panel_members/Mohamed.jpg";
+import Mohamed from "./panel_members/Mohamed.webp";
 import Sobia from "./panel_members/Sobia.webp";
 import Wilie from "./panel_members/Willie_Sai_Ho_Chan.webp";
 
-import Abu from "./orators/Mohammed.jpg";
-import dr_3 from "./orators/dr.3.jpg";
-import joaquin from "./orators/Joaquin.jpg";
-import med_logo from "./med_logo.png";
+import Abu from "./orators/Mohammed.webp";
+import dr_3 from "./orators/dr.3.webp";
+import joaquin from "./orators/Joaquin.webp";
+import med_logo from "./med_logo.webp";
 
 import { FaReddit } from 'react-icons/fa';
 
@@ -51,60 +51,58 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { base, link } from "framer-motion/client";
 
-// import group_1 from './group.png'
+// import group_1 from './group.webp'
 
-import chrysoula_banner from './orator_banners/chrysoula_banner.jpg'
-import joaquin_banner from './orator_banners/joaquin_banner.jpg'
-import mohammed_banner from './orator_banners/mohammed_banner.jpg'
-import qin_banner from './orator_banners/qin_banner.jpg'
+import chrysoula_banner from './orator_banners/chrysoula_banner.webp'
+import joaquin_banner from './orator_banners/joaquin_banner.webp'
+import mohammed_banner from './orator_banners/mohammed_banner.webp'
+import qin_banner from './orator_banners/qin_banner.webp'
 
-import alireza_banner from './panelm_banners/alireza_banner.jpg'
-import dana_banner from './panelm_banners/dana_banner.jpg'
-import hassan_banner from './panelm_banners/hassan_banner.jpg'
-import laure_banner from './panelm_banners/laure_banner.jpg'
-import mihail_banner from './panelm_banners/mihail_banner.jpg'
-import mohamed_banner from './panelm_banners/mohamed_banner.jpg'
-import sobia_banner from './panelm_banners/sobia_banner.jpg'
-import willie_banner from './panelm_banners/willie_banner.jpg'
+import alireza_banner from './panelm_banners/alireza_banner.webp'
+import dana_banner from './panelm_banners/dana_banner.webp'
+import hassan_banner from './panelm_banners/hassan_banner.webp'
+import laure_banner from './panelm_banners/laure_banner.webp'
+import mihail_banner from './panelm_banners/mihail_banner.webp'
+import mohamed_banner from './panelm_banners/mohamed_banner.webp'
+import sobia_banner from './panelm_banners/sobia_banner.webp'
+import willie_banner from './panelm_banners/willie_banner.webp'
 
-import silver from './badges/2.png'
-import gold from './badges/3.png'
-import platinum from './badges/4.png'
-import exhibitor from './badges/5.png'
+import silver from './badges/2.webp'
+import gold from './badges/3.webp'
+import platinum from './badges/4.webp'
+import exhibitor from './badges/5.webp'
 
 // import side from './side.gif'
-import section_banner from './section_banner.jpg'
+import section_banner from './section_banner.webp'
 
 // icons
-import ai_care from './icons/png/ai_care.png';
-import telemedicine from './icons/png/telemedicine.png';
-import cardiology from './icons/png/cardiology.png';
-import womens from './icons/png/womens.png';
-import nutrition from './icons/png/nutrition.png';
-import emergency_medicine from './icons/png/emergency_medicine.png';
-import oncology from './icons/png/oncology.png';
-import gastroenterology from './icons/png/gastroenterology.png';
-import genetic_disorder from './icons/png/genetic_disorder.png';
-import infectious_diseases from './icons/png/infectious_diseases.png';
-import endocrinology from './icons/png/endocrynology.png';
-import rheumatology from './icons/png/rheumatology.png';
-import mental_health from './icons/png/mental_health.png';
-import pain_management from './icons/png/pain_management.png';
-import addiction_medicine from './icons/png/addiction_medicine.png';
-import geriatrics from './icons/png/geriatrics.png';
-import gynecology from './icons/png/gynaecology.png'; // correct path if filename is gynaeology
-import pediatrics from './icons/png/pediatrics.png';
-import public_health from './icons/png/public_health.png';
-import vaccine from './icons/png/vaccine.png';
+import ai_care from './icons/png/ai_care.webp';
+import telemedicine from './icons/png/telemedicine.webp';
+import cardiology from './icons/png/cardiology.webp';
+import womens from './icons/png/womens.webp';
+import nutrition from './icons/png/nutrition.webp';
+import emergency_medicine from './icons/png/emergency_medicine.webp';
+import oncology from './icons/png/oncology.webp';
+import gastroenterology from './icons/png/gastroenterology.webp';
+import genetic_disorder from './icons/png/genetic_disorder.webp';
+import infectious_diseases from './icons/png/infectious_diseases.webp';
+import endocrinology from './icons/png/endocrynology.webp';
+import rheumatology from './icons/png/rheumatology.webp';
+import mental_health from './icons/png/mental_health.webp';
+import pain_management from './icons/png/pain_management.webp';
+import addiction_medicine from './icons/png/addiction_medicine.webp';
+import geriatrics from './icons/png/geriatrics.webp';
+import gynecology from './icons/png/gynaecology.webp'; // correct path if filename is gynaeology
+import pediatrics from './icons/png/pediatrics.webp';
+import public_health from './icons/png/public_health.webp';
+import vaccine from './icons/png/vaccine.webp';
 
-import banner_one from './banners/one.jpg'
-import banner_two from './banners/two.jpg'
-import banner_three from './banners/three.jpg'
-import banner_four from './banners/four.jpg'
-import banner_five from './banners/five.jpg'
+import banner_one from './banners/May 1.jpg'
+import banner_two from './banners/Conference_1.jpg'
+import banner_three from './banners/Conference_2.jpg'
+import banner_four from './banners/Conference_3.jpg'
 
 export const banner_images = {
-  banner_five,
   banner_four,
   banner_one,
   banner_two,
@@ -489,7 +487,7 @@ export const orators = [
 export const venueImages = [
   {
     id: 1,
-    src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.jpg", // City of Arts and Sciences at Sunset
+    src: "https://www.valencia-cityguide.com/images/attractions4/cac-vlc.webp", // City of Arts and Sciences at Sunset
     alt: "City of Arts and Sciences",
   },
   {
@@ -499,12 +497,12 @@ export const venueImages = [
   },
   {
     id: 3,
-    src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.jpg", // Oceanogràfic Aquarium
+    src: "https://valencia.lbsfilm.at/content/images/size/w2000/2017/11/LBS_BlogOceano_048.webp", // Oceanogràfic Aquarium
     alt: "Oceanogràfic",
   },
   {
     id: 4,
-    src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.jpg", // El Carmen District
+    src: "https://cdn.dreampropertiesvalencia.com/2024/12/district-el-carmen-in-valencia.webp", // El Carmen District
     alt: "El Carmen District",
   },
 ];

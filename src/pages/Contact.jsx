@@ -51,7 +51,7 @@ const ContactForm = () => {
       }
 
       const response = await axios.post(
-        "https://backend-code-6vqy.onrender.com/contact",
+        `${process.env.REACT_APP_BACKEND_URL}/contact`,
         formData, // <-- CHANGED: Send FormData instead of raw form object
         { 
           // <-- CHANGED: Content-Type header to multipart/form-data
@@ -180,7 +180,7 @@ const ContactForm = () => {
     : "400px";
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       <div className={`${banner_style} contact mx-auto `}> {/* Changed to style prop if banner_style is an object */}
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold">
           Contact Us

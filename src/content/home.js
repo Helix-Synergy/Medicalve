@@ -65,83 +65,83 @@ export const mediclave_tracks = {
   topics: [
     {
       title: 'AI in Healthcare',
-      image: 'ai-healthcare.jpg', // replace with actual image path or URL
+      image: 'ai-healthcare.webp', // replace with actual image path or URL
     },
     {
       title: 'Telemedicine & Digital Health',
-      image: 'telemedicine.jpg',
+      image: 'telemedicine.webp',
     },
     {
       title: 'Cardiology',
-      image: 'cardiology.jpg',
+      image: 'cardiology.webp',
     },
     {
       title: 'Gynecology',
-      image: 'gynecology.jpg',
+      image: 'gynecology.webp',
     },
     {
       title: 'Pediatrics',
-      image: 'pediatrics.jpg',
+      image: 'pediatrics.webp',
     },
     {
       title: 'Emergency Medicine',
-      image: 'emergency-medicine.jpg',
+      image: 'emergency-medicine.webp',
     },
     {
       title: 'Oncology',
-      image: 'oncology.jpg',
+      image: 'oncology.webp',
     },
     {
       title: 'Gastroenterology',
-      image: 'gastroenterology.jpg',
+      image: 'gastroenterology.webp',
     },
     {
       title: 'Genetic Disorder',
-      image: 'genetic-disorder.jpg',
+      image: 'genetic-disorder.webp',
     },
     {
       title: 'Infectious Diseases',
-      image: 'infectious-diseases.jpg',
+      image: 'infectious-diseases.webp',
     },
     {
       title: 'Endocrinology',
-      image: 'endocrinology.jpg',
+      image: 'endocrinology.webp',
     },
     {
       title: 'Rheumatology',
-      image: 'rheumatology.jpg',
+      image: 'rheumatology.webp',
     },
     {
       title: 'Mental Health',
-      image: 'mental-health.jpg',
+      image: 'mental-health.webp',
     },
     {
       title: 'Pain Management',
-      image: 'pain-management.jpg',
+      image: 'pain-management.webp',
     },
     {
       title: 'Nutrition and Metabolism',
-      image: 'nutrition-metabolism.jpg',
+      image: 'nutrition-metabolism.webp',
     },
     {
       title: 'Addiction Medicine',
-      image: 'addiction-medicine.jpg',
+      image: 'addiction-medicine.webp',
     },
     {
       title: 'Geriatrics',
-      image: 'geriatrics.jpg',
+      image: 'geriatrics.webp',
     },
     {
       title: "Women's Health & Midwifery",
-      image: 'womens-health.jpg',
+      image: 'womens-health.webp',
     },
     {
       title: 'Cosmetic Surgery',
-      image: 'public-health.jpg',
+      image: 'public-health.webp',
     },
     {
       title: 'Vaccines',
-      image: 'vaccines.jpg',
+      image: 'vaccines.webp',
     },
   ],
   buttons: [
@@ -166,25 +166,25 @@ export const mediclave_orators = {
     //   name: 'Prof. Mohamed Hosni',
     //   title: 'CEO & Prof.',
     //   country: 'United Kingdom',
-    //   image: 'mohamed-hosni.jpg', // replace with actual image path or URL
+    //   image: 'mohamed-hosni.webp', // replace with actual image path or URL
     // },
     {
       name: 'Prof. Chrysoula I. Liakou',
       title: 'CEO & Prof.',
       country: 'Greece',
-      image: 'chrysoula-liakou.jpg',
+      image: 'chrysoula-liakou.webp',
     },
     {
       name: 'Prof. Joaquin Cayon',
       title: 'CEO & Prof.',
       country: 'Spain',
-      image: 'joaquin-cayon.jpg',
+      image: 'joaquin-cayon.webp',
     },
     {
       name: 'Prof. Mohammed Abu-Ragheef',
       title: 'CEO & Prof.',
       country: 'Sweden',
-      image: 'mohammed-abu-ragheef.jpg',
+      image: 'mohammed-abu-ragheef.webp',
     },
   ],
   button: {
@@ -207,12 +207,12 @@ export const conference_venue = {
     'Bioparc Valencia',
   ],
   images: [
-    'novotel-valencia.jpg',
-    'city-of-arts.jpg',
-    'valencia-cathedral.jpg',
-    'la-lonja.jpg',
-    'el-carmen.jpg',
-    'oceanografic.jpg',
+    'novotel-valencia.webp',
+    'city-of-arts.webp',
+    'valencia-cathedral.webp',
+    'la-lonja.webp',
+    'el-carmen.webp',
+    'oceanografic.webp',
   ],
   button: {
     label: 'View all',
